@@ -1,0 +1,19 @@
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:[m[K In member function ‘[01m[Kvoid TeleopTurtle::keyLoop()[m[K’:
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:265:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist_pub_[m[K’
+  265 |       [01;31m[Ktwist_pub_[m[K.publish(twist);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:267:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist_pub_[m[K’
+  267 |       [01;31m[Ktwist_pub_[m[K.publish(twist);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:269:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist_pub_[m[K’
+  269 |       [01;31m[Ktwist_pub_[m[K.publish(twist);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:271:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist_pub_[m[K’
+  271 |       [01;31m[Ktwist_pub_[m[K.publish(twist);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:274:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist[m[K’
+  274 |       [01;31m[Ktwist[m[K.angular.z = 0;  //maing the linear and angular vel 0
+      |       [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/teleop_turtle.dir/build.make:63: CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/teleop_turtle.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

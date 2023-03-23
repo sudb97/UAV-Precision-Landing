@@ -1,0 +1,7 @@
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:[m[K In member function ‘[01m[Kvoid TeleopTurtle::keyLoop()[m[K’:
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:266:32:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""_[m[K’
+  266 |     twist.angular.z = a_scale_*[01;31m[K0_[m[K;
+      |                                [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/teleop_turtle.dir/build.make:63: CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/teleop_turtle.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

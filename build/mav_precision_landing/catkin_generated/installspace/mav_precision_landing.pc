@@ -1,0 +1,8 @@
+prefix=/home/sudarshan/mav_precision_landing/install
+
+Name: mav_precision_landing
+Description: Description of mav_precision_landing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

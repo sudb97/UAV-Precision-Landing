@@ -1,0 +1,8 @@
+prefix=/home/sudarshan/mav_precision_landing/devel/.private/m2wr_description
+
+Name: m2wr_description
+Description: Description of m2wr_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

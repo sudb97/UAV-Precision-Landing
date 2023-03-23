@@ -1,0 +1,6 @@
+devel_space: /home/sudarshan/mav_precision_landing/devel
+install: false
+install_space: /home/sudarshan/mav_precision_landing/install
+profile: default
+source_space: /home/sudarshan/mav_precision_landing/src
+workspace: /home/sudarshan/mav_precision_landing

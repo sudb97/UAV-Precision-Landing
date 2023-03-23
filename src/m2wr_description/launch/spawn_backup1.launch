@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+ <arg name="world_name" default="marker_world"/>
+  <arg name="paused" default="false"/>
+  <arg name="verbose" default="true"/>
+
+ 
+    <param name="robot_description" command="$(find xacro)/xacro '$(find m2wr_description)/urdf/m2wr.xacro'"/>
+
+    <arg name="x" default="0"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0.5"/>
+
+
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find mav_precision_landing)/worlds/$(arg world_name).world" />
+        <arg name="debug" value="true"/>
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="verbose" value="$(arg verbose)"/>
+    </include>
+
+
+    <node name="m2wr_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param robot_description -model m2wr -x $(arg x) -y $(arg y) -z $(arg z)" />
+</launch>

@@ -1,0 +1,29 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:1[m[K:
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:[m[K In member function ‘[01m[Kvoid TeleopTurtle::keyLoop()[m[K’:
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:266:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+  266 |     ROS_INFO([01;35m[K"%d\n"[m[K, [32m[Ktwist.linear.x[m[K);
+      |              [01;35m[K^~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K|[m[K
+      |                                   [32m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:266:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  266 |     [01;36m[KROS_INFO[m[K("%d\n", twist.linear.x);
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/sudarshan/mav_precision_landing/src/m2wr_description/src/teleop_turtle.cpp:266:16:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  266 |     ROS_INFO("[01;36m[K%d[m[K\n", twist.linear.x);
+      |               [01;36m[K~^[m[K
+      |                [01;36m[K|[m[K
+      |                [01;36m[Kint[m[K
+      |               [32m[K%f[m[K
